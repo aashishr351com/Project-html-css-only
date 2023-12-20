@@ -1,0 +1,150 @@
+:root{
+    --main-bg-color:#aa12ad;
+}
+*{
+    margin: 0;;
+    padding: 0;
+}
+header{
+    
+    background-color: var(--main-bg-color) ;
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+    width: 100%;
+    position: fixed;
+    /* position: relative; */
+    z-index: 1;
+    top: 1px;
+    /* overflow: hidden; */
+    /* top: 3px; */
+    /* border-radius: 6px; */
+
+    
+}
+
+nav{
+     display: flex;
+     align-items: center;
+    
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 150px;
+    /* filter: blur(-300px); */
+    padding: 0 40px;
+    color: white;
+}
+.search input{
+    width: 350px;
+    /* position: fixed; */
+    padding:  5.5px 10px;
+    border-radius: 4px;
+    border-color: #2874f0;
+    outline: #2874f0;
+    font-size: 15px;
+    margin: 0 20px 0 px;
+}
+.btn{
+    padding: 5.5px 5.5px;
+    border-radius: 8px;
+    border-color: #2874f0;
+    color: #2874f0;
+    outline: #2874f0;
+    cursor: pointer;
+}
+.btn:hover{
+    font-weight: 600;
+}
+nav ul {
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 0 20px;
+    font-size: 20px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    /* color: #769bd6; */
+    color: #96aed5;
+    transition: ease-in-out 1.5s ;
+}
+
+
+.slider{
+    /* margin: auto; */
+   width: 85vw;
+    margin: 12px auto;
+}
+.header{
+    margin: 2px 0;
+}
+
+
+
+.card {
+    max-width: 90vw;
+    margin: auto;
+    background-color:var(--main-bg-color);
+    border: none;
+    border-radius: 8px;
+}
+
+.card h2{
+    font-size: 2rem;
+    background-color: white;
+     background-color: var(--main-bg-color);
+
+    margin: 19px 0;
+}
+.lines{
+    color: #fff;
+}
+
+
+
+.card  img{
+    /* overflow: hidden; */
+    border: none;
+    border-radius: 4px;
+
+}
+
+
+.card-item{
+    width: 12vw;
+    display:  inline-flex;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 12px 2px ;
+}
+
+
+
+.container{
+    min-height: calc(100vh - 60px - 12vh );
+    margin: 20px 0;
+}
+
+
+footer{
+    background-color: var(--main-bg-color);
+    height: 12vh;
+    color: #fff;
+    font-family: sans-serif;
+}
